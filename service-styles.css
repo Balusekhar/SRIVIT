@@ -1,0 +1,89 @@
+/* Services */
+#services {
+    padding: 4rem 0;
+    background-color: #007acc;
+    color: white;
+  }
+
+  #services container{
+    height: 100%;
+  }
+  
+  .services-h2 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+  
+  .service-card {
+    background-color: white;
+    padding: 1rem;
+    color: black;
+    border-radius: 0.5rem;
+    height: 100%;
+  }
+
+  .service-card:hover {
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 1);
+  }
+
+  .service-title{
+    font-weight: 600;
+  }
+
+  .service-desc{
+    font-weight: 300;
+    opacity: 0.5;
+    line-height: 1.25rem;
+  }
+  
+  .service-title,
+  .service-desc {
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 768px) {
+    .service-desc{
+        font-size: 0.9rem;
+        font-weight: 300;
+        line-height: 1.25rem;
+      }
+  }
+
+  #about-us{
+    margin-top: 1rem;
+  }
+
+  #contact{
+    margin-top: 1rem;
+    background-color: #007acc ;
+  }
+
+  #contact p{
+    opacity: 0.8;
+    font-weight: 200;
+  }
+
+  #contact button{
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: 1px solid white;
+    width: 12rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+  }
+
+  #contact button:hover{
+    background-color: white;
+    color: #007ACC;
+    border: none;
+    font-size: 1.2rem;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    border-radius: 8px;
+    width: 12rem;
+    padding: 1rem 2rem;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Manrope", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #007ACC;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+.my-nav a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .my-nav a:not(.navbar-brand)::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black; 
+    transition: transform 0.3s ease; 
+    transform-origin: bottom left;
+    transform: scaleX(0); 
+  }
+  
+  .my-nav a:hover::before {
+    transform: scaleX(1); /* fully visible on hover */
+  }
+  
+  .my-nav{
+    width: 100%;
+    padding-top: 1rem;
+    background-color: #F5F5F5;
+  }
+  
+
+/* Hero-Section */
+.hero-section{
+    height: calc(100vh - 62px);
+    width: 100%;
+    background-color: #F5F5F5;
+    color: black;
+}
+
+.contact-button{
+    /* background-color: #3F01A8; */
+    background-color: transparent;
+    color: #007ACC;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 8px;
+    width: 12rem;
+    padding: 1rem 2rem;
+    transition: background-color 0.5s ease, border-color 0.3s ease;
+    font-weight: 600;
+}
+
+.contact-button i{
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+
+.contact-button:hover{
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    border-radius: 8px;
+    width: 12rem;
+    padding: 1rem 2rem;
+}
+
+.hero-section span{
+    font-weight: 800;
+}
+
+.hero-section hi{
+    font-weight: 200;
+}
+
+/* Media Quesries */
+@media (max-width: 768px) {
+    .navbar-brand {
+      padding-bottom: 1rem;
+    }
+  }
+  
