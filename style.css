@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6{
 .my-nav a {
     position: relative;
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 600;
 }
   
@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: white; 
+    background-color: black; 
     transition: transform 0.3s ease; 
     transform-origin: bottom left;
     transform: scaleX(0); 
@@ -77,7 +77,7 @@ h1,h2,h3,h4,h5,h6{
     height: calc(100vh - 62px);
     width: 100%;
     /* background-color: #F5F5F5; */
-    color: white;
+    color: black;
     position: relative;
     z-index: 5;
 }

@@ -30,10 +30,7 @@
   </head>
   <body>
 
-
-    <div class="background-cover">
-      <div class="black-gradient"></div>
-          <!-- Navbar -->
+    <!-- Navbar -->
     <div class="my-nav d-flex align-items-center">
       <div id="home" class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -83,35 +80,42 @@
 
     <!-- Hero-Section -->
     <section class="hero-section d-flex align-items-center">
-      <div class="px-4 py-5 text-center">
-        <h1 class="text-white display-5 mb-2">
-          Welcome TO SRI VIT
-        </h1>
-        <div class="col-lg-8 mx-auto">
-          <p class="lead-md mb-4">
-            At SRI VIT, we specialize in crafting tailored solutions to propel
-            your business forward. Whether you're seeking innovative software
-            development, strategic digital marketing campaigns, proficient IT
-            staffing, insightful data analytics, or expert IT consulting, we've
-            got you covered.
-          </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-center">
-            <!-- <button type="button" class="contact-button">
-              <i class="ri-mail-line"></i> Contact
-            </button> -->
-            <button
+      <div class="container px-4 py-5">
+        <div class="row flex-column-reverse flex-lg-row align-items-center g-5 py-2">
+          <div class="col-lg-6">
+            <h1 class="display-md-5 fw-bold text-body-emphasis lh-1 mb-3">
+              Welcome To Sri Vit
+            </h1>
+            <p class="lead text-black">
+              Your destination for top-notch software development services.
+              Quickly launch your projects with our expert team.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button
               type="button"
-              class="contact-button btn btn-secondary send-mail"
+              class="btn btn-secondary"
               onclick="window.location.href='mailto:info@srivit.com';"
+              style="background-color: #007ACC;"
             >
               <i class="ri-mail-line"></i>
               CONTACT
             </button>
+            </div>
+          </div>
+      
+          <div class="col-lg-6 my-0">
+            <img
+              src="/assets/background.jpg"
+              class="d-block mx-auto img-fluid mt-5"
+              alt="SRI-VIT HERO Image"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>
     </section>
-    </div>
 
     <!-- Services -->
     <section id="services">
@@ -214,7 +218,7 @@
 
     <!-- Contact-->
     <section id="contact">
-      <div class="p-5 text-center rounded-3">
+      <div class="p-3 pt-5 text-center rounded-3">
         <h2 class="mb-3 text-white">Contact Us</h2>
         <p class="col-lg-10 mx-auto fs-5 text-white text-center mb-4">
           We're here to assist you in any way possible. Whether you have
