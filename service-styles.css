@@ -1,7 +1,7 @@
 /* Services */
 #services {
     padding: 4rem 0;
-    background-color: #007acc;
+    background-color: #198753;
     color: white;
     cursor: auto;
   }
@@ -58,7 +58,7 @@
 
   #contact{
     margin-top: 1rem;
-    background-color: #007acc ;
+    background-color: #198753 ;
   }
 
   #contact p{
@@ -69,17 +69,17 @@
   #contact button{
     background-color: transparent;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     border: 1px solid white;
     width: 12rem;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     font-weight: 600;
   }
 
   #contact button:hover{
     background-color: white;
-    color: #007ACC;
+    color: #198753;
     border: none;
     font-size: 1.2rem;
     border: 1px solid transparent;
